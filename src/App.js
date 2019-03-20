@@ -25,7 +25,7 @@ getWeather = async (e) => {
   })
   const zip = e.target.elements.zip.value;
   const country = e.target.elements.country.value;
-  const api_call = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${zip},${country}&units=imperial&appid=${API_KEY}`);
+  const api_call = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${zip},${country}&units=imperial&appid=${API_KEY}`);
 
   const data = await api_call.json();
   if ( zip && country ) {
