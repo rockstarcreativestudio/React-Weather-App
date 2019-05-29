@@ -27,7 +27,7 @@
 
 I wanted to practice React with a few different tutorials before jumping into the React Calculator I had to build for FCC. I found that it allowed me to see how other developers plan React apps, as well as understanding state better. 
 
-This app is a simple weather app, using Open Weather's API service. You can enter your zip code or city, state and it will pull up the current weather. Since Open Weather includes icons with their response, I utilized that to add the weather icon without pulling in a separate library or icon set. 
+This app is a simple weather app, using Open Weather's API service. You can enter your zip code and country codee to pull up the current weather. Since Open Weather includes icons with their response, I utilized that to add the weather icon without pulling in a separate library or icon set. 
 
 ## [Check out the live project.](https://rockstarcreativestudio.github.io/React-Weather-App/)
 
