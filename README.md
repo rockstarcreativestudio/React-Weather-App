@@ -1,68 +1,42 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Weather App
+>This project was created practice React as well as try my hand at API integration. 
+<hr />
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+* [Dependencies](#depend)
+* [About The Project](#about)
+* [Support](#support)
+* [License](#license)
 
-### `npm start`
+<hr>
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<img width="350" src="https://rawcdn.githack.com/rockstarcreativestudio/FCC-React-Calculator/2121dfb52463e771c7cf4d2e3ee4e6c9313db2c6/src/screenshot-rockstarcreativestudio.github.io-2019.05.15-14-40-25.png" />
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+# <a name="depend"></a>Dependencies
 
-### `npm test`
+* Create React App
+* GH-Pages
+* Bootstrap
+* FontAwesome
+* Open Weather API
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<hr>
 
-### `npm run build`
+# <a name="about"></a> About the Project
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I wanted to practice React with a few different tutorials before jumping into the React Calculator I had to build for FCC. I found that it allowed me to see how other developers plan React apps, as well as understanding state better. 
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+This app is a simple weather app, using Open Weather's API service. You can enter your zip code or city, state and it will pull up the current weather. Since Open Weather includes icons with their response, I utilized that to add the weather icon without pulling in a separate library or icon set. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## [Check out the live project.](https://rockstarcreativestudio.github.io/React-Weather-App/)
 
-### `npm run eject`
+<hr>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# <a name="support"></a>Support
+Notice an issue with this app? [Leave a ticket here](https://github.com/rockstarcreativestudio/React-Weather-App/issues)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<hr>
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+# <a name="license"></a>License
+* [MIT License](http://opensource.org/licenses/mit-license.php)
