@@ -8,6 +8,7 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-scripts": "3.0.1"
+    "snyk": "^1.193.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -15,7 +16,9 @@
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -28,5 +31,6 @@
   ],
   "devDependencies": {
     "dotenv": "^8.0.0"
-  }
+  },
+  "snyk": true
 }
