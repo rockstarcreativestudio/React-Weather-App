@@ -1510,3 +1510,11 @@ patch:
         patched: '2019-07-11T14:14:55.223Z'
     - react-scripts > @svgr/webpack > @svgr/plugin-jsx > @babel/core > @babel/traverse > lodash:
         patched: '2019-07-11T14:14:55.223Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2019-07-31T07:46:31.771Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-07-31T07:46:31.771Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2019-07-31T07:46:31.771Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2019-07-31T07:46:31.771Z'
