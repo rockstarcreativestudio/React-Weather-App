@@ -1510,3 +1510,8 @@ patch:
         patched: '2019-07-11T14:14:55.223Z'
     - react-scripts > @svgr/webpack > @svgr/plugin-jsx > @babel/core > @babel/traverse > lodash:
         patched: '2019-07-11T14:14:55.223Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T07:46:30.601Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T07:46:30.601Z'
